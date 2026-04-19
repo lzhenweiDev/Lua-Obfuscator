@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB3B93892F95198A00D9A96C /* Prometheus in Resources */ = {isa = PBXBuildFile; fileRef = DB3B93882F95198A00D9A96C /* Prometheus */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB74BD672F94FA860030A632 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB74BD512F94FA850030A632 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB74BD582F94FA850030A632;
+			remoteInfo = "Lua Obfuscator";
+		};
+		DB74BD712F94FA860030A632 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB74BD512F94FA850030A632 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB74BD582F94FA850030A632;
+			remoteInfo = "Lua Obfuscator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB3B93882F95198A00D9A96C /* Prometheus */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Prometheus; sourceTree = "<group>"; };
+		DB74BD592F94FA850030A632 /* Lua Obfuscator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lua Obfuscator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB74BD662F94FA860030A632 /* Lua ObfuscatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lua ObfuscatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB74BD702F94FA860030A632 /* Lua ObfuscatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lua ObfuscatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		DB74BD5B2F94FA850030A632 /* Lua Obfuscator */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Lua Obfuscator";
+			sourceTree = "<group>";
+		};
+		DB74BD692F94FA860030A632 /* Lua ObfuscatorTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Lua ObfuscatorTests";
+			sourceTree = "<group>";
+		};
+		DB74BD732F94FA860030A632 /* Lua ObfuscatorUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Lua ObfuscatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB74BD562F94FA850030A632 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB74BD632F94FA860030A632 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB74BD6D2F94FA860030A632 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB74BD502F94FA850030A632 = {
+			isa = PBXGroup;
+			children = (
+				DB3B93882F95198A00D9A96C /* Prometheus */,
+				DB74BD5B2F94FA850030A632 /* Lua Obfuscator */,
+				DB74BD692F94FA860030A632 /* Lua ObfuscatorTests */,
+				DB74BD732F94FA860030A632 /* Lua ObfuscatorUITests */,
+				DB74BD5A2F94FA850030A632 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB74BD5A2F94FA850030A632 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB74BD592F94FA850030A632 /* Lua Obfuscator.app */,
+				DB74BD662F94FA860030A632 /* Lua ObfuscatorTests.xctest */,
+				DB74BD702F94FA860030A632 /* Lua ObfuscatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB74BD582F94FA850030A632 /* Lua Obfuscator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB74BD7A2F94FA860030A632 /* Build configuration list for PBXNativeTarget "Lua Obfuscator" */;
+			buildPhases = (
+				DB74BD552F94FA850030A632 /* Sources */,
+				DB74BD562F94FA850030A632 /* Frameworks */,
+				DB74BD572F94FA850030A632 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DB74BD5B2F94FA850030A632 /* Lua Obfuscator */,
+			);
+			name = "Lua Obfuscator";
+			packageProductDependencies = (
+			);
+			productName = "Lua Obfuscator";
+			productReference = DB74BD592F94FA850030A632 /* Lua Obfuscator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB74BD652F94FA860030A632 /* Lua ObfuscatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB74BD7D2F94FA860030A632 /* Build configuration list for PBXNativeTarget "Lua ObfuscatorTests" */;
+			buildPhases = (
+				DB74BD622F94FA860030A632 /* Sources */,
+				DB74BD632F94FA860030A632 /* Frameworks */,
+				DB74BD642F94FA860030A632 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB74BD682F94FA860030A632 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DB74BD692F94FA860030A632 /* Lua ObfuscatorTests */,
+			);
+			name = "Lua ObfuscatorTests";
+			packageProductDependencies = (
+			);
+			productName = "Lua ObfuscatorTests";
+			productReference = DB74BD662F94FA860030A632 /* Lua ObfuscatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB74BD6F2F94FA860030A632 /* Lua ObfuscatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB74BD802F94FA860030A632 /* Build configuration list for PBXNativeTarget "Lua ObfuscatorUITests" */;
+			buildPhases = (
+				DB74BD6C2F94FA860030A632 /* Sources */,
+				DB74BD6D2F94FA860030A632 /* Frameworks */,
+				DB74BD6E2F94FA860030A632 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB74BD722F94FA860030A632 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DB74BD732F94FA860030A632 /* Lua ObfuscatorUITests */,
+			);
+			name = "Lua ObfuscatorUITests";
+			packageProductDependencies = (
+			);
+			productName = "Lua ObfuscatorUITests";
+			productReference = DB74BD702F94FA860030A632 /* Lua ObfuscatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB74BD512F94FA850030A632 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2640;
+				LastUpgradeCheck = 2640;
+				TargetAttributes = {
+					DB74BD582F94FA850030A632 = {
+						CreatedOnToolsVersion = 26.4;
+					};
+					DB74BD652F94FA860030A632 = {
+						CreatedOnToolsVersion = 26.4;
+						TestTargetID = DB74BD582F94FA850030A632;
+					};
+					DB74BD6F2F94FA860030A632 = {
+						CreatedOnToolsVersion = 26.4;
+						TestTargetID = DB74BD582F94FA850030A632;
+					};
+				};
+			};
+			buildConfigurationList = DB74BD542F94FA850030A632 /* Build configuration list for PBXProject "Lua Obfuscator" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB74BD502F94FA850030A632;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DB74BD5A2F94FA850030A632 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB74BD582F94FA850030A632 /* Lua Obfuscator */,
+				DB74BD652F94FA860030A632 /* Lua ObfuscatorTests */,
+				DB74BD6F2F94FA860030A632 /* Lua ObfuscatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB74BD572F94FA850030A632 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB3B93892F95198A00D9A96C /* Prometheus in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB74BD642F94FA860030A632 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB74BD6E2F94FA860030A632 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB74BD552F94FA850030A632 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB74BD622F94FA860030A632 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB74BD6C2F94FA860030A632 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB74BD682F94FA860030A632 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB74BD582F94FA850030A632 /* Lua Obfuscator */;
+			targetProxy = DB74BD672F94FA860030A632 /* PBXContainerItemProxy */;
+		};
+		DB74BD722F94FA860030A632 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB74BD582F94FA850030A632 /* Lua Obfuscator */;
+			targetProxy = DB74BD712F94FA860030A632 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DB74BD782F94FA860030A632 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB74BD792F94FA860030A632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		DB74BD7B2F94FA860030A632 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Lua Obfuscator";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lzhenwei.Lua-Obfuscator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DB74BD7C2F94FA860030A632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon.icns;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Lua Obfuscator";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lzhenwei.Lua-Obfuscator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DB74BD7E2F94FA860030A632 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lzhenwei.Lua-ObfuscatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lua Obfuscator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lua Obfuscator";
+			};
+			name = Debug;
+		};
+		DB74BD7F2F94FA860030A632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lzhenwei.Lua-ObfuscatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lua Obfuscator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lua Obfuscator";
+			};
+			name = Release;
+		};
+		DB74BD812F94FA860030A632 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lzhenwei.Lua-ObfuscatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Lua Obfuscator";
+			};
+			name = Debug;
+		};
+		DB74BD822F94FA860030A632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lzhenwei.Lua-ObfuscatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Lua Obfuscator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB74BD542F94FA850030A632 /* Build configuration list for PBXProject "Lua Obfuscator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB74BD782F94FA860030A632 /* Debug */,
+				DB74BD792F94FA860030A632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB74BD7A2F94FA860030A632 /* Build configuration list for PBXNativeTarget "Lua Obfuscator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB74BD7B2F94FA860030A632 /* Debug */,
+				DB74BD7C2F94FA860030A632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB74BD7D2F94FA860030A632 /* Build configuration list for PBXNativeTarget "Lua ObfuscatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB74BD7E2F94FA860030A632 /* Debug */,
+				DB74BD7F2F94FA860030A632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB74BD802F94FA860030A632 /* Build configuration list for PBXNativeTarget "Lua ObfuscatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB74BD812F94FA860030A632 /* Debug */,
+				DB74BD822F94FA860030A632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB74BD512F94FA850030A632 /* Project object */;
+}
