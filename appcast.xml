@@ -5,13 +5,13 @@
         <description>Most recent updates to Lua Obfuscator Pro</description>
         <language>en</language>
         <item>
-            <title>Version 1.0.0</title>
+            <title>Version 1.0.1</title>  <!-- ⬅️ Auf 1.0.1 ändern -->
             <sparkle:releaseNotesLink>https://github.com/lzhenweiDev/Lua-Obfuscator/releases/tag/v1.0.1</sparkle:releaseNotesLink>
             <pubDate>Sun, 19 Apr 2026 12:00:00 +0000</pubDate>
             <enclosure 
                 url="https://github.com/lzhenweiDev/Lua-Obfuscator/releases/download/v1.0.1/Lua.Obfuscator.dmg"
-                sparkle:version="1.0.0"
-                sparkle:shortVersionString="1.0"
+                sparkle:version="1.0.1"  <!-- ⬅️ Auf 1.0.1 ändern -->
+                sparkle:shortVersionString="1.0.1"  <!-- ⬅️ Auf 1.0.1 ändern -->
                 length="3060000"
                 type="application/octet-stream" />
         </item>
