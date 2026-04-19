@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>Lua Obfuscator Updates</title>
+        <description>Most recent updates to Lua Obfuscator</description>
+        <language>en</language>
+        <item>
+            <title>Version 1.0.0</title>
+            <sparkle:releaseNotesLink>https://github.com/DEIN_USERNAME/Lua-Obfuscator/releases/tag/v1.0.0</sparkle:releaseNotesLink>
+            <pubDate>Mon, 19 Apr 2026 12:00:00 +0000</pubDate>
+            <enclosure 
+                url="https://github.com/DEIN_USERNAME/Lua-Obfuscator/releases/download/v1.0.0/Lua.Obfuscator.dmg"
+                sparkle:version="1.0.0"
+                sparkle:shortVersionString="1.0"
+                sparkle:edSignature="DEIN_SIGNATUR_HIER"
+                length="12345678"
+                type="application/octet-stream" />
+        </item>
+    </channel>
+</rss>
