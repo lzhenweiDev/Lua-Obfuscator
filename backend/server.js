@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 5000;
 // ===== KONFIGURATION =====
 // CORS für GitHub Pages erlauben
 const allowedOrigins = [
-    'https://deinusername.github.io',  // Deine GitHub Pages URL
+    'https://lzhenweidev.github.io/Lua-Obfuscator/',  // Deine GitHub Pages URL
     'http://localhost:5500',           // Für lokale Tests
     'http://127.0.0.1:5500'
 ];
