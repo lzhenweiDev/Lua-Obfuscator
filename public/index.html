@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kostenloser Lua Obfuscator - Schütze deinen Lua Code mit Prometheus">
+    <meta name="keywords" content="Lua Obfuscator, Prometheus, Lua Code Protection, Lua Encrypt">
+    <meta name="author" content="Dein Name">
+    <title>Lua Obfuscator - Kostenloser Lua Code Obfuscator</title>
+    
+    <!-- Open Graph für Social Media -->
+    <meta property="og:title" content="Lua Obfuscator - Kostenloser Lua Code Obfuscator">
+    <meta property="og:description" content="Obfusciere deinen Lua Code online und kostenlos mit Prometheus">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://deine-domain.com">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <span class="logo">🔒</span>
+                <span class="brand-name">Lua Obfuscator</span>
+            </div>
+            <div class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#about">About</a>
+                <a href="https://github.com/deinusername/lua-obfuscator" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>🔒 Lua Code Obfuscator</h1>
+            <p>Schütze deinen Lua-Code mit modernster Obfuscation-Technologie</p>
+            <div class="hero-badges">
+                <span class="badge">⚡ Schnell</span>
+                <span class="badge">🔐 Sicher</span>
+                <span class="badge">🌐 Kostenlos</span>
+                <span class="badge">📱 Mobile-ready</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <div class="main-container">
+        <div class="container">
+            <div class="row">
+                <!-- Input Section -->
+                <div class="col">
+                    <div class="card">
+                        <div class="card-header">
+                            <h2>📝 Lua Code eingeben</h2>
+                            <span class="char-count" id="charCount">0 Zeichen</span>
+                        </div>
+                        <textarea 
+                            id="luaInput" 
+                            placeholder="-- Dein Lua Code hier...
+-- Beispiel:
+local function greet(name)
+    print('Hello, ' .. name .. '!')
+end
+
+greet('World')"
+                            spellcheck="false"
+                        ></textarea>
+                        
+                        <div class="options-grid">
+                            <label class="option-item">
+                                <input type="checkbox" id="minify" checked>
+                                <span>📦 Minify</span>
+                                <small>Entfernt unnötige Leerzeichen</small>
+                            </label>
+                            <label class="option-item">
+                                <input type="checkbox" id="encrypt">
+                                <span>🔐 Encrypt Strings</span>
+                                <small>Verschlüsselt Text-Strings</small>
+                            </label>
+                            <label class="option-item">
+                                <input type="checkbox" id="renameVars" checked>
+                                <span>🔄 Rename Variables</span>
+                                <small>Ersetzt Variablennamen</small>
+                            </label>
+                            <label class="option-item">
+                                <input type="checkbox" id="removeComments" checked>
+                                <span>💬 Remove Comments</span>
+                                <small>Entfernt Kommentare</small>
+                            </label>
+                        </div>
+                        
+                        <button onclick="obfuscateCode()" id="obfuscateBtn">
+                            <span class="btn-icon">⚡</span>
+                            Obfuscate
+                            <span class="shortcut">(Ctrl+Enter)</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Output Section -->
+                <div class="col">
+                    <div class="card">
+                        <div class="card-header">
+                            <h2>🔒 Obfuscated Code</h2>
+                            <div class="output-actions">
+                                <button onclick="copyOutput()" class="btn-sm" title="Kopieren">
+                                    📋 Copy
+                                </button>
+                                <button onclick="downloadOutput()" class="btn-sm" title="Herunterladen">
+                                    💾 Download
+                                </button>
+                                <button onclick="clearOutput()" class="btn-sm" title="Löschen">
+                                    🗑️ Clear
+                                </button>
+                            </div>
+                        </div>
+                        <textarea 
+                            id="luaOutput" 
+                            readonly 
+                            placeholder="Obfuscated Code erscheint hier..."
+                            spellcheck="false"
+                        ></textarea>
+                        
+                        <div class="stats" id="stats" style="display:none;">
+                            <div class="stat-item">
+                                <span class="stat-label">Original:</span>
+                                <span class="stat-value" id="originalSize">0</span>
+                                <span class="stat-unit">bytes</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Obfuscated:</span>
+                                <span class="stat-value" id="obfuscatedSize">0</span>
+                                <span class="stat-unit">bytes</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Compression:</span>
+                                <span class="stat-value" id="compression">0%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Status -->
+            <div id="status" class="status"></div>
+
+            <!-- Recent Examples -->
+            <div class="examples-section">
+                <h3>📚 Beispiele</h3>
+                <div class="examples-grid">
+                    <button onclick="loadExample('basic')" class="example-btn">Basic Function</button>
+                    <button onclick="loadExample('table')" class="example-btn">Table Operations</button>
+                    <button onclick="loadExample('class')" class="example-btn">Class Example</button>
+                    <button onclick="loadExample('api')" class="example-btn">API Simulation</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Features Section -->
+    <section id="features" class="features-section">
+        <div class="container">
+            <h2 class="section-title">✨ Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🔄</div>
+                    <h3>Variable Renaming</h3>
+                    <p>Automatisches Umbenennen von Variablen, Funktionen und Parametern</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📦</div>
+                    <h3>Code Minification</h3>
+                    <p>Reduziert die Code-Größe durch Entfernen von Leerzeichen und Kommentaren</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔐</div>
+                    <h3>String Encryption</h3>
+                    <p>Verschlüsselt Strings, um Reverse Engineering zu erschweren</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Blazing Fast</h3>
+                    <p>Obfuscation in Millisekunden mit modernem Backend</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>🔒 Lua Obfuscator</h4>
+                    <p>Schütze deinen Lua Code mit Prometheus</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Links</h4>
+                    <ul>
+                        <li><a href="https://github.com/deinusername/lua-obfuscator">GitHub</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#privacy">Privacy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="https://github.com/deinusername/lua-obfuscator/issues">Issues</a></li>
+                        <li><a href="mailto:support@deine-domain.com">Email</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Lua Obfuscator. Made with ❤️</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
